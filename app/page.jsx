@@ -23,7 +23,7 @@ import { SiNumpy } from "react-icons/si";
 
 const Home = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto sm:mb-[100px] mb-[-200px] sm:mt-0 mt-10`}>
+    <section className={`relative w-full h-screen mx-auto sm:mb-[100px] mb-0 sm:mt-0 mt-10`}>
       <div
         className={`absolute inset-0  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -48,7 +48,7 @@ const Home = () => {
 
       <ComputersCanvas />
 
-     <div className="flex justify-center items-center sm:mt-[-50px] mt-[-430px] gap-[5px] p-[20px]">
+     <div className="flex justify-center items-center sm:mt-[-10px] mt-[-430px] gap-[5px] p-[20px]">
         <FaHtml5 className="w-[50px] h-[50px]" color="coral" />
         <FaCss3Alt className="w-[50px] h-[50px]" color="blue"/>
         <TbBrandJavascript className="w-[50px] h-[70px]" color="yellow" />
