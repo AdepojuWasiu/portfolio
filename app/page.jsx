@@ -48,7 +48,7 @@ const Home = () => {
 
       <ComputersCanvas />
 
-     <div className="flex justify-center items-center sm:mt-[-100px] mt-[-430px] gap-[5px] p-[20px]">
+     <div className="flex justify-center items-center sm:mt-[-100px] mt-[-130px] gap-[5px] p-[20px]">
         <FaHtml5 className="w-[50px] h-[50px]" color="coral" />
         <FaCss3Alt className="w-[50px] h-[50px]" color="blue"/>
         <TbBrandJavascript className="w-[50px] h-[70px]" color="yellow" />
