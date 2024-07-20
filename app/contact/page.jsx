@@ -65,7 +65,7 @@ const Contact = () => {
   };
 
   return (
- <div className="sm:w-full w-[80vw]">
+ <div >
     <div className="flex justify-center items-center">
     <h1 className='text-bold sm:text-[60px] text-[30px] text-[#ffd700] opacity-[0.8]'>Contact Me</h1>
    </div>
@@ -74,7 +74,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='flex-[0.55] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
 
