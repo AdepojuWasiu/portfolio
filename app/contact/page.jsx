@@ -65,10 +65,10 @@ const Contact = () => {
   };
 
   return (
- <div>
+ <div className="sm:w-full w-[80vw]">
     <div className="flex justify-center items-center">
     <h1 className='text-bold sm:text-[60px] text-[30px] text-[#ffd700] opacity-[0.8]'>Contact Me</h1>
-  </div>
+   </div>
     <div
       className='flex justify-center items-center mt-[20px] mb-[100px]'
     >
