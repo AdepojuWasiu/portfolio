@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="fixed left-[0px] right-[0px] bottom-[0px] ">
+    <div >
       <hr className='h-[10px]'></hr>
       <div className=" flex lg:flex-row flex-col-reverse lg:justify-between 
       justify-center items-center py-[30px] lg:px-[80px] px-[5px] lg:gap-[0px] gap-[10px] pb-[50px]">
