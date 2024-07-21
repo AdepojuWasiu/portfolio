@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="w-full flex flex-row justify-between ">
         <div className="flex justify-start gap-2 justify-items-start">
             <div>
-                <Link href= '/'> <Image src= '/assets/logo.png' alt="logo" width={50} height={50}
+                <Link href= '/'> <Image src= '/assets/logo.png' alt="logo" width={80} height={80}
                         className= {`rounded-full ${
                           active === 'home'? 'text-gray-500': 'text-white'
            }`} onClick={() => {setActive('home')}} /></Link>
