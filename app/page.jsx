@@ -23,7 +23,7 @@ import { SiNumpy } from "react-icons/si";
 
 const Home = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto sm:mb-[100px] mb-[-300px] sm:mt-0 mt-10`}>
+    <section className={`relative w-full h-screen mx-auto sm:mb-[100px] mb-[-300px]`}>
       <div
         className={`absolute inset-0  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >

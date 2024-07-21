@@ -22,7 +22,7 @@ const Footer = () => {
            <p> All Right Reserved</p>
         </div>
         <div className="flex flex-row gap-[5px]">
-           <p>Let's analyze and solve problems together </p>
+           <p>Let's solve problems together </p>
            <TbHandLoveYou />
         </div>
         <div className="flex flex-row gap-[20px]">

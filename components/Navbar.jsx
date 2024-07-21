@@ -13,7 +13,7 @@ const Navbar = () => {
     const [active, setActive] = useState("");
 
   return (
-    <nav className="w-full mt-5 pt-3 xl:px-[200px] px-[30px] flex flex-col  text-[20px] relative"  >
+    <nav className="w-full mt-5 pt-3 xl:px-[200px] px-[30px] flex flex-col  text-[20px] relative pl-[-20px]"  >
       <div className="w-full flex flex-row justify-between ">
         <div className="flex justify-start gap-2 justify-items-start mt-[-10px]">
             <div>
