@@ -7,7 +7,7 @@ const Project = () => {
   return (
     <div className='flex justify-center items-center flex-col'>
       <div>
-        <h1 className='text-bold text-[60px] text-[#ffd700] opacity-[0.8]'>Projects</h1>
+        <h1 className='text-bold sm:text-[60px] text-[30px] text-[#ffd700] opacity-[0.8]'>Projects</h1>
       </div>
       <div className='grid sm:grid-cols-2 grid-cols-1 gap-[40px] mt-[20px]'>
         {projects.map((project) => (

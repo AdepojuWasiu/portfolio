@@ -46,7 +46,7 @@ const projects = [
         image: '/assets/project-pic-7.png',
         title: 'Web development',
         name: 'My Old Portfolio',
-        description : ' My old portfolio build with HTML, CSS and Javascript. Deployed using github page.',
+        description : ' My old portfolio built with HTML, CSS and Javascript. Deployed using github page.',
         link: 'https://adepojuwasiu.github.io/my-portfolio/'
     }
 ]

@@ -4,6 +4,7 @@ import { SiGmail } from "react-icons/si";
 import { FaGithub } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
+import {IoCall} from "react-icons/io5"
 import Link from "next/link";
 
 
@@ -27,6 +28,7 @@ const Footer = () => {
         <div className="flex flex-row gap-[20px]">
          <Link href='mailto:adepojuwasiu031@gmail.com'><SiGmail className="w-[30px] h-[30px]" /></Link>
          <Link href='Https://wa.me/+2348163982842'><FaWhatsapp className="w-[30px] h-[30px]" /></Link>
+         <Link href='+2348163982842'><IoCall className="w-[30px] h-[30px]" /></Link>
          <Link href='https://github.com/AdepojuWasiu'><FaGithub className="w-[30px] h-[30px]"/></Link>
          <Link href='https://www.linkedin.com/in/adepojuwasiu'><FaLinkedin className="w-[30px] h-[30px]" /></Link>
        </div>
