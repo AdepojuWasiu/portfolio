@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="w-full mt-5 pt-3 xl:px-[200px] px-[30px] flex flex-col  text-[20px] relative"  >
       <div className="w-full flex flex-row justify-between ">
-        <div className="flex justify-start gap-2 justify-items-start">
+        <div className="flex justify-start gap-2 justify-items-start mt-[-10px]">
             <div>
                 <Link href= '/'> <Image src= '/assets/logo.png' alt="logo" width={80} height={80}
                         className= {`rounded-full ${
@@ -56,7 +56,7 @@ const Navbar = () => {
                 toggleDropdown && (
                   <div className="flex justify-center items-center justify-items-center gap-7  
                           flex-col scale-up-center fixed z-10  right-[10vw] bg-[#000000] 
-                          left-[10vw] bottom-[10vw] top-[50px] ">
+                          left-[10vw] bottom-[10vw] top-[50px] border-white border-[1px]">
               <Link href='/about'><p className={`${
                              active === 'about'? 'text-gray-500': 'text-white'
               } hover:text-[#c29b0c]`} onClick={()=>{setActive('about'); setToggleDropdown(false)}}>About</p></Link>

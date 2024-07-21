@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div >
+    <div>
       <hr className='h-[10px]'></hr>
       <div className=" flex lg:flex-row flex-col-reverse lg:justify-between 
       justify-center items-center py-[30px] lg:px-[80px] px-[5px] lg:gap-[0px] gap-[10px] pb-[50px]">
@@ -22,15 +22,15 @@ const Footer = () => {
            <p> All Right Reserved</p>
         </div>
         <div className="flex flex-row gap-[5px]">
-           <p>Lets Analyze problems together </p>
+           <p>Let's analyze and solve problems together </p>
            <TbHandLoveYou />
         </div>
         <div className="flex flex-row gap-[20px]">
          <Link href='mailto:adepojuwasiu031@gmail.com'><SiGmail className="w-[30px] h-[30px]" /></Link>
-         <Link href='Https://wa.me/+2348163982842'><FaWhatsapp className="w-[30px] h-[30px]" /></Link>
-         <Link href='+2348163982842'><IoCall className="w-[30px] h-[30px]" /></Link>
-         <Link href='https://github.com/AdepojuWasiu'><FaGithub className="w-[30px] h-[30px]"/></Link>
          <Link href='https://www.linkedin.com/in/adepojuwasiu'><FaLinkedin className="w-[30px] h-[30px]" /></Link>
+         <Link href='https://github.com/AdepojuWasiu'><FaGithub className="w-[30px] h-[30px]"/></Link>
+         <Link href='tel:+2348163982842'><IoCall className="w-[30px] h-[30px]" /></Link>
+         <Link href='Https://wa.me/+2348163982842'><FaWhatsapp className="w-[30px] h-[30px]" /></Link>
        </div>
       </div>
     
