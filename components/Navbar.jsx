@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="w-full mt-5 pt-3 xl:px-[200px] px-[30px] flex flex-col  text-[20px] relative pl-[-20px]"  >
       <div className="w-full flex flex-row justify-between ">
-        <div className="flex justify-start gap-2 justify-items-start mt-[-10px]">
+        <div className="flex justify-start gap-2 justify-items-start mt-[-15px]">
             <div>
                 <Link href= '/'> <Image src= '/assets/logo.png' alt="logo" width={80} height={80}
                         className= {`rounded-full ${
